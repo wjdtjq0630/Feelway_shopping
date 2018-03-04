@@ -1,0 +1,343 @@
+* {
+    user-select: none;
+}
+
+body {
+    width: 900px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+nav {
+    width: 900px;
+    text-align: center;
+    padding-right: 25px;
+}
+
+nav.nav {
+    display: inline;
+    padding-top: 75px;
+}
+
+nav ul {
+    width: auto;
+    display: inline-block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+a.logo img{
+    width:180px;
+    height:60px;
+}
+
+a.logo {
+    font-size: 25pt;
+    font-family: helvetica;
+    width: 400px;
+}
+.loginbutton,.joinbutton{
+  margin-top:25px;
+}
+.nav ul a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-family: helvetica;
+}
+ul.menubar li{
+  position: absolute;
+}
+.nav ul li {
+    display: block;
+    margin-right: 40px;
+    float: left;
+}
+.nav ul li a.selected{
+    color:black;
+}
+.header a.selected{
+  font-weight:bold;
+}
+ul.menubar li a:hover{
+    color:orange;
+}
+
+.nav ul li {
+    background-color:
+}
+
+.nav {
+    padding-top: 45px;
+    display: inline;
+}
+
+.nav ul li.last {
+    margin-right: 0;
+}
+
+.nav a.last {
+    margin-right: 0;
+}
+
+ul a:hover {
+    color: black;
+}
+
+div.footer {
+    font-size: 12px;
+    font-family: helvetica;
+    position: absolute;
+    margin-top:50px;
+    padding-bottom: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 900px;
+    vertical-align: bottom;
+}
+
+.header {
+    width: 900px;
+    height: auto;
+    display: inline-block;
+    margin-top: 3%;
+}
+
+main {
+    text-align: center;
+    height: inherit;
+    padding-top:40px;
+}
+
+.login {
+    text-align: center;
+    margin-top: 100px;
+    border: 2px solid gray;
+    height: 500px;
+}
+
+.loginbutton {
+    font-family: ;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    float: right;
+    display: inline-block;
+    padding-top: 18px;
+}
+
+.joinbutton {
+    text-decoration: none;
+    color: black;
+    float: right;
+    display: inline-block;
+    padding-top: 18px;
+}
+
+a.loginbutton:hover {
+    font-weight: bold;
+}
+
+a.joinbutton:hover{
+    font-weight: bold;
+}
+
+}
+.loginpage {
+    text-align: center;
+    margin-top: 140px;
+}
+
+
+#text {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    font-size:20px;
+    background-color: white;
+    color:gray;
+    outline:none;
+
+}
+
+input#text:focus{
+  border-color:orange;
+}
+#gender{
+
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid gray;
+      font-size:20px;
+      background-color: white;
+      color:gray;
+}
+
+.bold{
+  color:black;
+  font-weight: bold;
+}
+#submit {
+    border: 2px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    font-size: 20px;
+    outline:none;
+
+}
+input#submit:focus{
+  outline-color:gray;
+}
+input#submit:hover {
+    color: blue;
+}
+
+
+main {
+    margin-top: 30px;
+}
+div.div_brand {
+    display: inline-block;
+    width: 900px;
+}
+ul.product {
+    list-style: none;
+    width: 900px;
+    height: 700px;
+    display: inline-block;
+    padding-left: 70px;
+}
+ul.product a {
+    text-decoration: none;
+    color: black;
+}
+ul.product a:hover {
+    color: gray;
+}
+ul.product img {
+    width: 150px;
+    height: 200px;
+}
+ul.product li {
+    width: 150px;
+    height: 300px;
+    float: left;
+}
+h2 {
+    width: 150px;
+}
+p {
+    width: 150px;
+}
+.list {
+    margin-right: 50px;
+}
+.listd {
+    margin-top: 100px;
+}
+.product img {
+    opacity: 1.0;
+}
+.product img:hover {
+    opacity: 0.8;
+}
+.slideshow{
+	position:relative;
+	display:inline;
+}
+.mainimg {
+    width: 900px;
+    height: 530px;
+     top:0;
+     left:0;
+     border:1px solid #fff;
+}
+.slideshow img.alt{
+	display: none;
+
+}
+.productimg{
+    width: 400px;
+    height: 530px;
+    float: left;
+}
+div.item_img{
+  float: left;
+}
+span{
+  display: inherit;
+  text-align: left;
+  font-size: 20px;
+}
+div.item_info{
+  display:block;
+  float: right;
+  width: 450px;
+  height: 530px;
+}
+div.item_info h2{
+  width: 450px;
+  text-align: left;
+}
+div.item_info b{
+  text-align:left;
+}
+
+div.item_info p{
+  width: 450px;
+}
+.infofontsize{
+  font-size: 15px;
+}
+
+div.item_detail{
+  display: inline-block;
+}
+div.detail_button{
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  background-color: orange;
+  color: white;
+  float: left;
+}
+.productbody{
+  width:450px;
+}
+.select_option{
+  font-size:15px;
+  width:450px;
+  height:40px;
+}
+.buybutton{
+  background-color:orange;
+  color:black;
+  border:1px gray;
+  font-size:25px;
+  width:220px;
+  height:50px;
+}
+ul.menubar{
+  display:none;
+  float:none;
+  position:fixed;
+  text-align:left;
+  padding: 0;
+}
+li.brandbar:hover ul{
+  display:block;
+}
+li.brandbar:hover ul li {
+  display:block;
+  float:none;
+}
+div.mypage{
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-top:30px;
+  border:2px solid gray;
+}
